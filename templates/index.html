@@ -170,17 +170,24 @@
                     </lord-icon>
 
 
+
                 </div>
                 <h4>Entertainment</h4>
                 <p>-Book Review </p>
                 <p>-Four ways to study science</p>
                 <p>-Thoughts with Nadine</p>
                 <p>-Arabic Poem</p>
-              </div> <!-- End offer-post -->
+                <div class="hero-btn">
+                  <a href="{{ url_for('entertainment') }}" class="btn btn-dark">open the entertainment magazine </a>
+                </div>
+              </div>
+
+              <!-- End offer-post -->
             </div> <!-- End col-sm-4 -->
 
             <div class="col-sm-4">
               <div class="offer-post text-center animated out" data-animation="fadeInUp" data-delay="0">
+                <a  herf="url_for{{('academic')}}">
                 <div class="offer-icon">
                   <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
                    <lord-icon
@@ -189,10 +196,14 @@
                        style="width:75px;height:75px">
                    </lord-icon>
                 </div>
+                  </a>
                 <h4>Sports</h4>
                 <p>-Volleyball League</p>
                 <p>-Football League</p>
                 <p>-Table Tennis League</p>
+                <div class="hero-btn">
+                  <a href="{{ url_for('sport') }}" class="btn btn-dark">open the sport magazine </a>
+                </div>
               </div> <!-- End offer-post -->
             </div> <!-- End col-sm-4 -->
 
@@ -211,6 +222,9 @@
                 <p>-Cognia</p>
                 <p>-Academic Competition</p>
                 <p>-Science Fair</p>
+                <div class="hero-btn">
+                  <a href="{{ url_for('education') }}" class="btn btn-dark">open the education magazine </a>
+                </div>
               </div> <!-- End offer-post -->
             </div> <!-- End col-sm-4 -->
 
@@ -405,11 +419,11 @@
             <div class="row">
 
               <!-- member-team -->
-              <div class="col-sm-4">
+              <div  class="col-sm-4">
                 <div class="member-team animated out" data-animation="fadeInLeft" data-delay="0">
-                  <img src="static/assets/images/team/m1.jpg" alt="">
+                  <img  src="static/assets/images/team/m1.jpg" alt="">
                   <div class="magnifier">
-                    <div class="magnifier-inner">
+                    <div  class="magnifier-inner">
                       <h3>Academic</h3>
                       <!-- <p>Co_founder &amp; Designer</p> -->
                       <p>At AMS, we are quite attentive towards all aspects regarding our students' lives, especially entertainment. In order to cheer our students up, we perform activities on a daily basis. Not to mention, entertainment is a form of education. Both teachers and students enjoy their days at school as our school carries out multiple events to celebrate, such as Ramadan, New Year's, Arabic Day, 6th of October, etc. AMS takes care of entertainment simply because education isn't an opposite to entertainment.
@@ -431,9 +445,9 @@
               </div> <!-- End col-sm-4 -->
 
               <!-- member-team -->
-              <div class="col-sm-4">
+              <div  class="col-sm-4">
                 <div class="member-team animated out" data-animation="fadeInUp" data-delay="0">
-                  <img src="static/assets/images/team/m2.jpg" alt="">
+                  <img  src="static/assets/images/team/m2.jpg" alt="">
                   <div class="magnifier">
                     <div class="magnifier-inner">
                       <h3>Sports</h3>
@@ -456,14 +470,15 @@
               </div> <!-- End col-sm-4 -->
 
               <!-- member-team -->
-              <div class="col-sm-4">
+              <a href="url_for{{('academic')}}">
+              <div  class="col-sm-4">
                 <div class="member-team animated out" data-animation="fadeInRight" data-delay="0">
-                  <img src="static/assets/images/team/m3.jpg" alt="">
+                  <img  src="static/assets/images/team/m3.jpg" alt="">
                   <div class="magnifier">
                     <div class="magnifier-inner">
-                      <h3>Education</h3>
+                      <a  herf="">Education</a>
                       <!-- <p>Head Support</p> -->
-                      <p>AMS always proves the Academic strength of its student by providing variety of prospects and chances for them to shine. From these aspects you may find Academic Competition, ISEF, Benha Science And Engineering Fair, and a lot more.
+                      <p >AMS always proves the Academic strength of its student by providing variety of prospects and chances for them to shine. From these aspects you may find Academic Competition, ISEF, Benha Science And Engineering Fair, and a lot more.
 </p>
                       <!-- <ul class="social-icons">
 
@@ -480,6 +495,7 @@
                   </div> <!-- End magnifier -->
                 </div> <!-- End member-team -->
               </div> <!-- End col-sm-4 -->
+                </a>
 
             </div>
           </div> <!-- End team-members -->
@@ -576,12 +592,12 @@
         <div class="container">
           <div class="row">
 
-            <!-- <div class="col-sm-6">
+             <div class="col-sm-6">
               <div class="banner-content animated out" data-animation="fadeInUp" data-delay="0">
                 <h3 class="banner-heading">Looking for exclusive digital services?</h3>
                 <div class="banner-decription">
                   Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor. Integer non dapibus diam, ac eleifend lectus.
-                </div> <!-- end banner-decription -->
+                </div> end banner-decription -->
                 <div>
                   <!-- <a href="contact.html" class="btn btn-sm btn-clean">Lets talk</a> -->
                 </div>
@@ -999,7 +1015,7 @@
                       <div class="testimonials-author"> hamza- Web Developer </div>
                     </li>
                     <li>
-                      <img class="progphoto" src="static/assets/images/temp/<huda></huda>.png" alt="">
+                      <img class="progphoto" src="static/assets/images/temp/huda.png" alt="">
                       <p>huda have edit the acadimic  part </p>
                       <div class="testimonials-author"> jana- Web Developer </div>
                     </li>
